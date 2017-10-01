@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="MahjonngCalc.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MahjonngCalc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+            <Grid x:ConnectionId='1' x:Name="Lefttool" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+                <StackPanel x:ConnectionId='10' x:Name="RonTsumon" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <ToggleButton x:ConnectionId='13' x:Name="Ron" Height="Auto" Width="Auto" Content="Ron"/>
+                    <ToggleButton x:ConnectionId='14' x:Name="Tsumon" Height="Auto"  Width="auto" Content="Tsumo"/>
+                </StackPanel>
+                <Grid x:ConnectionId='11' x:Name="Windsetting" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                <ToggleButton x:ConnectionId='12' x:Name="Eastround" Width="Auto" Height="Auto" Grid.Column="0" Grid.Row="0" />
+            </Grid>             
+            </Grid>
+            <Grid x:ConnectionId='2' x:Name="Hands" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid x:ConnectionId='4' x:Name="Set" Grid.Row="0">
+                    <Grid.ColumnDefinitions>                     
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                        <ToggleButton x:ConnectionId='6' x:Name="Chi" Grid.Column="0" Content="Chi" HorizontalAlignment="Center" />
+                        <ToggleButton x:ConnectionId='7' x:Name="Pon" Grid.Column="1" Content="Pon" HorizontalAlignment="Center"/>
+                        <ToggleButton x:ConnectionId='8' x:Name="Kan" Grid.Column="2" Content="Kan" HorizontalAlignment="Center"/>
+                        <ToggleButton x:ConnectionId='9' x:Name="ClosedKan" Grid.Column="3" Content="Closed Kan" HorizontalAlignment="Center"/>
+            </Grid>                
+                <Grid x:ConnectionId='5' x:Name="tileGrid" Grid.Row="1">                    
+                    <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+            </Grid>
+            </Grid>
+
+        <Grid x:ConnectionId='3' x:Name="Scoreboard" Grid.Column="2">
+
+        </Grid>
+    </Grid>
+</Page>
+

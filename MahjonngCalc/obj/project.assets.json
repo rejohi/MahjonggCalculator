@@ -24336,11 +24336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\source\\repos\\MahjonngCalc\\MahjonngCalc\\MahjonngCalc.csproj",
+      "projectUniqueName": "C:\\Users\\John\\source\\repos\\MahjonggCalculator\\MahjonngCalc\\MahjonngCalc.csproj",
       "projectName": "MahjonngCalc",
-      "projectPath": "C:\\Users\\John\\source\\repos\\MahjonngCalc\\MahjonngCalc\\MahjonngCalc.csproj",
+      "projectPath": "C:\\Users\\John\\source\\repos\\MahjonggCalculator\\MahjonngCalc\\MahjonngCalc.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\source\\repos\\MahjonngCalc\\MahjonngCalc\\obj\\",
+      "outputPath": "C:\\Users\\John\\source\\repos\\MahjonggCalculator\\MahjonngCalc\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

@@ -7,9 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"> 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/> 
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
@@ -59,9 +59,11 @@
                         <ToggleButton x:Name="Pon" Grid.Column="1" Content="Pon" HorizontalAlignment="Center"/>
                         <ToggleButton x:Name="Kan" Grid.Column="2" Content="Kan" HorizontalAlignment="Center"/>
                         <ToggleButton x:Name="ClosedKan" Grid.Column="3" Content="Closed Kan" HorizontalAlignment="Center"/>
-            </Grid>                
-                <Grid x:Name="tileGrid" Grid.Row="1" Pre>                    
-                    <Grid.ColumnDefinitions>
+            </Grid>
+            <Grid x:Name="tileGrid" Grid.Row="1" ><!-- Grid das zur Eingabe der Tiles dienen soll
+                                                    Hier habe ich 9 Spalten und 4 Zeilen angelegt, so das sie einen automatischen Zwischenraum berechnen.
+                                                    befüllt wird dieses Grid durch die Methode InsertTiles und die for-Schleifen der xaml.cs Main-->
+                <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="2*"/>

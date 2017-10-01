@@ -57,7 +57,8 @@ namespace MahjonngCalc
                     }
                 }
             }
-    }
+        }
+
         public void InsertTile(int row,int column,String png)
         {
             Tile T = new Tile(row, column, png);
@@ -74,7 +75,7 @@ namespace MahjonngCalc
             {
                 if (Grid.GetRow(child) == _row && Grid.GetColumn(child)== _column)
                 {
-                    child.
+
                 }
             }
         }
